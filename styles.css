@@ -1,0 +1,64 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  border: #4666CC solid 13px;
+  padding-bottom: 50px;
+  background-image: radial-gradient(circle, #c994a2, #d7aca7, #dec5b7, #e5ded0, #f3f4ef);
+  padding: 20px;
+}
+
+h1 {
+  color: #4666CC;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 30px;
+  left: 280px;
+}
+
+.student_name {
+  margin-bottom: 50px;
+}
+
+.mother_name {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.images {
+  display: flex;
+  justify-content:
+  space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.QRcode {
+  width: 345px;
+}
+
+.bar {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  right: 120px;
+}
+
+.abc {
+  border-radius: 15px;
+}
+
+.sign, .abc {
+  height: 150px;
+  width: 150px;
+}
